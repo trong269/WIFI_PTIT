@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+body .container .header {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  background-color: white;
+  display: flex;
+  padding: 30px 40px;
+  text-align: center;
+}
+body .container .header .logo {
+  width: 50px;
+  height: 50px;
+  background-image: url(./logo-ptit.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 20px;
+  margin-left: 400px;
+}
+body .container .header .text {
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
+body .container .header .text .text1 {
+  color: #a91414;
+}
+body .container .header .text .text2 {
+  color: #41126c;
+}
+body .container .center {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+body .container .center .para {
+  text-align: center;
+  color: #cf0909;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body .container .center .para .para1 {
+  font-size: 45px;
+  margin: 30px;
+}
+body .container .center .para .para2 {
+  font-size: 100px;
+  display: inline-block;
+  border-bottom: 7px solid #e10808;
+  font-weight: bold;
+}
+body .container .center .input {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+body .container .center .input .nhap1,
+body .container .center .input .nhap2 {
+  font-size: 20px;
+  color: white;
+  margin: 10px;
+}
+body .container .center .input .nhap1 input,
+body .container .center .input .nhap2 input {
+  background-color: white;
+  width: 200px;
+  height: 30px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+body .container .center .connect {
+  text-align: center;
+}
+body .container .center .connect button {
+  font-weight: bold;
+  padding: 10px 35px;
+  background-color: #d40b0b;
+  color: white;
+  border: 5px double #d40b0b;
+  border-radius: 15px;
+  background-clip: padding-box;
+  cursor: pointer;
+}
+body .container .footer {
+  width: 100%;
+  height: 50px;
+  margin-top: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  background-color: #8c0404;
+}
+
+/*# sourceMappingURL=style.css.map */
